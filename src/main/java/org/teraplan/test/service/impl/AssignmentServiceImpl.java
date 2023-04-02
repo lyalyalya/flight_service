@@ -37,6 +37,11 @@ public class AssignmentServiceImpl implements AssignmentService {
         return assignments;
     }
 
+    @Override
+    public List<AssignmentEntity> findByEmployeeId(Integer employeeId) {
+        return dao.findByEmployeeId(employeeId);
+    }
+
     private AssignmentEntity fillEntity(AssignmentDto dto) {
         AssignmentEntity entity = mapper.dtoToEntity(dto);
 
