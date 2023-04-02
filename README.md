@@ -18,6 +18,9 @@ GET http://localhost:8080/flights?employeeId=111523
 
 Get details
 GET http://localhost:8080/pairings/details
+
 GET http://localhost:8080/flights/detailes
+
 GET http://localhost:8080/employees/details
+
 GET http://localhost:8080/assignments/details
